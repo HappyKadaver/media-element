@@ -22,19 +22,16 @@ An element providing a solution to no problem in particular.
 
 Example:
 
-    <seed-element></seed-element>
-
-Example:
-
-    <seed-element>
-      <h2>Hello seed-element</h2>
-    </seed-element>
+    <media-element image="http://images.anime4fun.com/images/upload/75968.jpg"
+                  title="Utawarerumono: Itsuwari no Kamen"
+                  url="http://animeonline.one//category/anime-list/utawarerumono-itsuwari-no-kamen">
+    </media-element>
 
 @demo demo/index.html
 @hero hero.svg
 -->
 
-<dom-module id="seed-element">
+<dom-module id="media-element">
   <template>
     <style>
       :host {
@@ -76,7 +73,7 @@ Example:
 
   <script>
     Polymer({
-      is: 'seed-element',
+      is: 'media-element',
 
       properties: {
         title: String,

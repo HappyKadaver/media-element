@@ -1,5 +1,5 @@
 {
-  "name": "seed-element",
+  "name": "media-element",
   "version": "1.0.6",
   "authors": [
     "Anonymous <anonymous@example.com>"
@@ -10,9 +10,9 @@
     "polymer",
     "seed"
   ],
-  "main": "seed-element.html",
+  "main": "media-element.html",
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "homepage": "https://github.com/<USERNAME>/media-element/",
   "ignore": [
     "/.*",
     "/test/"
